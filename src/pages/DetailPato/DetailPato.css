@@ -1,0 +1,50 @@
+#retangulo-timer{
+    display: flex;
+    width: 327px;
+    height: 66px;
+    background-color: #A7C99A;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #barra{
+    cursor: pointer;
+    width: 209px;
+    height: 16px;
+    background-color: #7E9F70;
+    border-radius: 100px;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  #circulo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #89362E;
+  }
+  
+  #play {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .timer-counter{
+    font-size: 45px;
+    font-weight: 300px;
+    line-height: 87px;
+    letter-spacing: 3px;
+  }
+
+  .abacate-count {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #4E0F09;
+  }

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.detail{
+    background-color: #FAFFF9;
+}
+
+header{
+    background-color: #FAFFF9;
+}
+
+footer{
+    background-color: #FAFFF9;
+}
+
+#retangulo-contador {
+    background-color: #C6DEAC;
+    width: 105px;
+    height: 40px;
+    top: 35px;
+    left: 25px;
+    border-radius: 50px;
+    position: relative;
+  }
+
+  #abacate-pequeno {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .imagem-juju-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /*aqui muda altura vovo Juju*/
+  }
+
+  #retangulo-timer{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 327px;
+    height: 66px;
+    
+    border-radius: 100px;
+    padding: 8px, 19px, 8px, 19px;
+    gap: 30px;
+    background-color: #C6DEAC;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #DEFBD9; 
+    transition: top 0.3s ease-out; 
+  }
+  
+  .overlay.active {
+    top: 0; 
+  }
+  
+  .overlay img{
+    margin-top: 120px;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 84px;
+    top: 82;
+    left: 26px;
+    font-size: 34px;
+    line-height: 42px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    width: 328px;
+    height: 162px;
+    top: 214px;
+    left: 23px;
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay-content{
+    position: fixed;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #DEFBD9; 
+    transition: top 0.3s ease-out; 
+}
+
+  .juju-overlay {
+    position: fixed;
+    top: 70vh;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: #F4E3E1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.overlay-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px; 
+  }
+  
+  .overlay-content div img {
+    margin: 0 10px; 
+  }
+
+
+#fundoJujuzinha{
+    width: 93px;
+    height: 110px;
+    margin-left: 10px;
+    background-color: #CDDECA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#fundoMC{
+    width: 93px;
+    height: 110px;
+    background-color: #DEC3B4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+
+#fundoPato{
+    width: 93px;
+    height: 110px;
+    margin-right: 10px;
+    background-color: #B6B4DE;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.Nomes{
+    background-color: #FAFFF9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -18px;
+}
+
+.Nomes1{
+    background-color: #FAFFF9;
+    width: 93px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -18px;
+}
+
+.Nomes1 p{
+    color: #5A312C;
+    text-align: center;
+}
+
+.Nomes3{
+    background-color: #FAFFF9;
+    width: 93px;
+    margin-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -18px;
+}
+
+.Nomes3 p{
+    color: #5A312C;
+    text-align: center;
+}
+
+#Pato{
+    text-align: center;
+}
+
+#retangulo-timer{
+  display: flex;
+  width: 327px;
+  height: 66px;
+  background-color: #A7C99A;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+#barra{
+  cursor: pointer;
+  width: 209px;
+  height: 16px;
+  background-color: #7E9F70;
+  border-radius: 100px;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#circulo{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #89362E;
+}
+
+#play {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.timer-counter{
+  font-size: 45px;
+  font-weight: 300px;
+  line-height: 87px;
+  letter-spacing: 3px;
+}
+
+.abacate-count {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #4E0F09;
+}
+
+
+.overlayUltimo {
+  position: fixed;
+  top: 100%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #E7FEE3; 
+  transition: top 0.3s ease-out; 
+}
+
+.overlayUltimo.active {
+  top: 0; 
+}
+
+
+#desistir{
+  font-weight: 700;
+  color: #1F371BE5;
+  font-size: 34px;
+  position: center;
+  line-height: 42px;
+
+}
+
+#cuidado{
+  font-weight: 400;
+  color: #1F371BE5;
+  font-size: 18px;
+  position: center;
+  line-height: 27px;
+}
+
+#desistirImg{
+  position: relative;
+  bottom: -220px;
+}
